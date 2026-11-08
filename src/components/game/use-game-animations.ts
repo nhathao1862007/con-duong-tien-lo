@@ -37,7 +37,13 @@ export function playBreakthroughAnimation(
     });
 
     // Staggered particle explosion with color variation
-    const particleColors = ["#4E9F3D", "#D4AF37", "#C6A0FF", "#FF5F5F", "#7ED321"];
+    const particleColors = [
+      "#4E9F3D",
+      "#D4AF37",
+      "#C6A0FF",
+      "#FF5F5F",
+      "#7ED321",
+    ];
     for (let i = 0; i < 40; i++) {
       const particle = document.createElement("div");
       particle.className = "breakthrough-particle";
