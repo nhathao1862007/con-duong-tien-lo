@@ -19,14 +19,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Digital Ocean
-doctl*
-
 # Lyft
 .coverage/
-
-# Gitignores for Next.js
-# https://github.com/github/gitignore/blob/main/Next.js.gitignore
 
 # Large binaries - Git LFS
 *.node
